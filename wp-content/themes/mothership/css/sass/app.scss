@@ -1,0 +1,92 @@
+/* Variables */
+$dark-grey : #555;
+
+/* FONTS */
+body {
+	line-height: 1.5em;
+	
+}
+
+
+/* HEADER */
+header {
+	padding-top:10px;
+ .logo-image {
+ 
+ h1{
+	background: url(../images/logo.png) no-repeat left top;
+	text-indent: -9999%;
+	float: left;
+	display: block;
+	width: 250px;
+	height:54px;
+	
+}
+.description {
+	width: 100%;
+	float:  left;
+	font-style:italic;
+	font-weight:  600;
+}
+}
+}
+
+/* NAVIGATION */
+.logged-in{
+	.top-bar-container {
+	top: 27px;
+	}
+}
+#top-nav {
+	.nav-bar {
+		margin: 0;
+	}
+	.breadcrumbs {
+		padding: 2px 10px 3px;
+	}
+	.nav-bar form[role="search"]{
+		width: 150px;
+		margin: 10px 10px 9px;
+		
+		input[type="search"]{
+			margin:0;
+		}
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top:  20px;
+	margin-bottom:  10px;
+}
+h5 {
+	margin-bottom: 4px;
+}
+
+/* SIDEBAR */
+.sidebar > li {
+	list-style: none;
+}
+
+/* FOOTER */
+footer {
+	//background: $dark-grey;
+}
+footer .sidebar {
+	margin-top: 10px;
+}
+
+/* GRAVITY FORMS */
+.gform_wrapper .gform_body input{
+	/*text inputs */
+	&[type="text"], 
+	&[type="email"], 
+	&[type="number"], 
+	&[type="url"], 
+	&[type="tel"], 
+	&[type="password"]  
+	{	
+		padding-left:  .5em;
+		font-size:  .9em;
+	}
+	
+}

@@ -1,0 +1,86 @@
+/* Variables */
+/* FONTS */
+/* line 5, sass/app.scss */
+body {
+  line-height: 1.5em;
+}
+
+/* HEADER */
+/* line 12, sass/app.scss */
+header {
+  padding-top: 10px;
+}
+/* line 16, sass/app.scss */
+header .logo-image h1 {
+  background: url(../images/logo.png) no-repeat left top;
+  text-indent: -9999%;
+  float: left;
+  display: block;
+  width: 250px;
+  height: 54px;
+}
+/* line 25, sass/app.scss */
+header .logo-image .description {
+  width: 100%;
+  float: left;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* NAVIGATION */
+/* line 36, sass/app.scss */
+.logged-in .top-bar-container {
+  top: 27px;
+}
+
+/* line 41, sass/app.scss */
+#top-nav .nav-bar {
+  margin: 0;
+}
+/* line 44, sass/app.scss */
+#top-nav .breadcrumbs {
+  padding: 2px 10px 3px;
+}
+/* line 47, sass/app.scss */
+#top-nav .nav-bar form[role="search"] {
+  width: 150px;
+  margin: 10px 10px 9px;
+}
+/* line 51, sass/app.scss */
+#top-nav .nav-bar form[role="search"] input[type="search"] {
+  margin: 0;
+}
+
+/* line 57, sass/app.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 61, sass/app.scss */
+h5 {
+  margin-bottom: 4px;
+}
+
+/* SIDEBAR */
+/* line 66, sass/app.scss */
+.sidebar > li {
+  list-style: none;
+}
+
+/* FOOTER */
+/* line 74, sass/app.scss */
+footer .sidebar {
+  margin-top: 10px;
+}
+
+/* GRAVITY FORMS */
+/* line 79, sass/app.scss */
+.gform_wrapper .gform_body input {
+  /*text inputs */
+}
+/* line 87, sass/app.scss */
+.gform_wrapper .gform_body input[type="text"], .gform_wrapper .gform_body input[type="email"], .gform_wrapper .gform_body input[type="number"], .gform_wrapper .gform_body input[type="url"], .gform_wrapper .gform_body input[type="tel"], .gform_wrapper .gform_body input[type="password"] {
+  padding-left: .5em;
+  font-size: .9em;
+}
