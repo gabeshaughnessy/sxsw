@@ -31,7 +31,8 @@ jQuery(document).ready(function($){
 	//jQuery('input[type="radio"], input[type="checkbox"]').uniform();
 $.localScroll();
 
-}); //end document ready
+jQuery('.draggable').draggable();
+					}); //end document ready
 
 /* --------- WINDOW LOAD --------- */
 jQuery(window).load(function(){

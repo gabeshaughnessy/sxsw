@@ -25,6 +25,7 @@ function ms_enqueue_scripts() {
 		get_template_directory_uri() . '/lib/foundation/javascripts/app.js',
 		array('foundation')
 	);
+
 	//Uniform - sexy forms
 	wp_register_script(
 		'uniform',
@@ -49,12 +50,26 @@ function ms_enqueue_scripts() {
 		array('foundation', 'jquery')
 	
 	);
+	
+	wp_register_script('jquery-transform', get_template_directory_uri().'/js/jquery.transform.js', 
+	array('foundation', 'jquery')
+	);
+	//https://github.com/eenox/jQuery-3D-transform
+	
 	wp_enqueue_script(
 		'foundation'
 	);
 	wp_enqueue_script(
 		'foundation-app'
 	);
+	wp_enqueue_script('');
+	wp_enqueue_script('jquery-ui-core');
+	wp_enqueue_script('jquery-ui-draggable');
+	wp_enqueue_script('jquery-effects-core');
+	wp_enqueue_script('jquery-effects-clip');
+	wp_enqueue_script('jquery-effects-explode');
+	wp_enqueue_script('jquery-effects-drop');
+	wp_enqueue_script('jquery-transform');
 	/*wp_enqueue_script(
 		'uniform'
 	);*/

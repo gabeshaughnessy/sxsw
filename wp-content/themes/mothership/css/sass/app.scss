@@ -90,3 +90,16 @@ footer .sidebar {
 	}
 	
 }
+
+/* Effects */
+.skew {
+perspective: 100;
+-webkit-perspective: 100; /* Safari and Chrome */
+
+transform:rotate(7deg);
+-ms-transform:rotate(7deg); /* IE 9 */
+-moz-transform:rotate(7deg); /* Firefox */
+-webkit-transform:rotate(7deg); /* Safari and Chrome */
+-o-transform:rotate(7deg); /* Opera */
+
+}
