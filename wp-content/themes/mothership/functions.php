@@ -135,6 +135,14 @@ if (function_exists('st_makeEntries')) :
 add_shortcode('sharethis', 'st_makeEntries');
 endif;
 
+add_shortcode('tweetblend', 'get_tweet_blender_widget');
+function get_tweet_blender_widget(){
+get_template_part('widget', 'tweetblend');
+}
+
+
+
+
 /* ___________ WIDGETS_______________ */
 //require_once('widgets.php');
 ?>
