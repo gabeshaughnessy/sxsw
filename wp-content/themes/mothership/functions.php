@@ -4,6 +4,8 @@
 require_once('lib/admin-page-class/admin-page-class.php');
 require_once('lib/admin-page-class/theme-options.php');
 
+//Add Theme support for WordPress Features
+add_theme_support( 'post-formats', array( 'image', 'status' ) );
 //enqueue foundation js
 function ms_enqueue_scripts() {
 	
