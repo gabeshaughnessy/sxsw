@@ -107,3 +107,12 @@ footer .sidebar {
   -o-transform: rotate(7deg);
   /* Opera */
 }
+
+/* line 111, sass/app.scss */
+.container-3d {
+  -webkit-perspective: 600px;
+}
+/* line 115, sass/app.scss */
+.container-3d .perspective {
+  -webkit-transform: rotateY(45deg) translateZ(-1000px) translateX(200px) translateY(-300px);
+}

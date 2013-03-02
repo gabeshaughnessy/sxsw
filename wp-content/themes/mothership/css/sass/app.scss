@@ -3,7 +3,7 @@ $dark-grey : #555;
 
 /* Layar Setup */
 body {
-	background: transparent !important;
+	background: transparent !important; //transparent backgorund for layar
 	
 }
 /* FONTS */
@@ -107,4 +107,14 @@ transform:rotate(7deg);
 -webkit-transform:rotate(7deg); /* Safari and Chrome */
 -o-transform:rotate(7deg); /* Opera */
 
+}
+.container-3d{
+	
+    -webkit-perspective: 600px;
+
+.perspective {
+	-webkit-transform: rotateY(45deg) translateZ(-1000px) translateX(200px) translateY(-300px);	
+	
+	}
+	
 }
