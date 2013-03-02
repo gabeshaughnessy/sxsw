@@ -111,9 +111,16 @@ transform:rotate(7deg);
 .container-3d{
 	
     -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    -o-perspective: 600px;
+    perspective: 600px;
 
 .perspective {
-	-webkit-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
+	-webkit-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
+	-moz-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
+	-o-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
+	transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
+		
 	
 	}
 	
