@@ -114,5 +114,5 @@ footer .sidebar {
 }
 /* line 115, sass/app.scss */
 .container-3d .perspective {
-  -webkit-transform: rotateY(45deg) translateZ(-1000px) translateX(200px) translateY(-300px);
+  -webkit-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
 }
