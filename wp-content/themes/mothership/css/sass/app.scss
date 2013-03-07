@@ -96,32 +96,65 @@ footer .sidebar {
 	
 }
 
-/* Effects */
-.skew {
-perspective: 100;
--webkit-perspective: 100; /* Safari and Chrome */
+/* POSTERS */
 
-transform:rotate(7deg);
--ms-transform:rotate(7deg); /* IE 9 */
--moz-transform:rotate(7deg); /* Firefox */
--webkit-transform:rotate(7deg); /* Safari and Chrome */
--o-transform:rotate(7deg); /* Opera */
 
+article:nth-child(1){
+.poster{
+	position: absolute;
+	z-index:3;
+	left: -5px;
+	top: -15px;
+	width: 350px;
+	height: 507px;
+	background: url(../images/poster1.png) no-repeat top;
 }
-.container-3d{
-	
-    -webkit-perspective: 600px;
-    -moz-perspective: 600px;
-    -o-perspective: 600px;
-    perspective: 600px;
-
-.perspective {
-	-webkit-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
-	-moz-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
-	-o-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
-	transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);;	
-		
-	
-	}
-	
 }
+article:nth-child(2){
+.poster{
+	position: absolute;
+	z-index:2;
+	left: 0px;
+	top: 450px;
+	width: 300px;
+	height: 400px;
+	background: url(../images/poster2.png) no-repeat top;
+}
+}
+article:nth-child(3){
+.poster{
+	z-index:1;
+	position: absolute;
+	left: 225px;
+	top: 0px;
+	width: 300px;
+	height: 413px;
+	background: url(../images/poster3.png) no-repeat top;
+}
+}
+
+/* Word Bubble */
+ .widget_tweetblender {
+	 width: 500px;
+	 height: 228px;
+	 background: url(../images/word-bubble.png) no-repeat top;
+	 display: block;
+	 float: left;
+	 
+	 .tb_tweetlist {
+		 margin: 10px 20px 40px 130px;
+		 font-family: 'Futura';
+		 text-transform: uppercase;
+		 font-weight: bold;
+		 border: 0;
+		 div.tb_tweet {
+			 border: 0;
+		 }
+		 a {
+			 color: #fff;
+		 }
+		 .tb_tweet-info {
+			display: none;
+		 }
+	 } 
+ }

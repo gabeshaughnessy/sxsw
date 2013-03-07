@@ -91,34 +91,66 @@ footer .sidebar {
   font-size: .9em;
 }
 
-/* Effects */
-/* line 100, sass/app.scss */
-.skew {
-  perspective: 100;
-  -webkit-perspective: 100;
-  /* Safari and Chrome */
-  transform: rotate(7deg);
-  -ms-transform: rotate(7deg);
-  /* IE 9 */
-  -moz-transform: rotate(7deg);
-  /* Firefox */
-  -webkit-transform: rotate(7deg);
-  /* Safari and Chrome */
-  -o-transform: rotate(7deg);
-  /* Opera */
+/* POSTERS */
+/* line 103, sass/app.scss */
+article:nth-child(1) .poster {
+  position: absolute;
+  z-index: 3;
+  left: -5px;
+  top: -15px;
+  width: 350px;
+  height: 507px;
+  background: url(../images/poster1.png) no-repeat top;
 }
 
-/* line 111, sass/app.scss */
-.container-3d {
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
-  -o-perspective: 600px;
-  perspective: 600px;
+/* line 114, sass/app.scss */
+article:nth-child(2) .poster {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 450px;
+  width: 300px;
+  height: 400px;
+  background: url(../images/poster2.png) no-repeat top;
 }
-/* line 118, sass/app.scss */
-.container-3d .perspective {
-  -webkit-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
-  -moz-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
-  -o-transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
-  transform: rotateY(45deg) translateZ(-100px) translateX(20%) translateY(-20px);
+
+/* line 125, sass/app.scss */
+article:nth-child(3) .poster {
+  z-index: 1;
+  position: absolute;
+  left: 225px;
+  top: 0px;
+  width: 300px;
+  height: 413px;
+  background: url(../images/poster3.png) no-repeat top;
+}
+
+/* Word Bubble */
+/* line 137, sass/app.scss */
+.widget_tweetblender {
+  width: 500px;
+  height: 228px;
+  background: url(../images/word-bubble.png) no-repeat top;
+  display: block;
+  float: left;
+}
+/* line 144, sass/app.scss */
+.widget_tweetblender .tb_tweetlist {
+  margin: 10px 20px 40px 130px;
+  font-family: 'Futura';
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+}
+/* line 150, sass/app.scss */
+.widget_tweetblender .tb_tweetlist div.tb_tweet {
+  border: 0;
+}
+/* line 153, sass/app.scss */
+.widget_tweetblender .tb_tweetlist a {
+  color: #fff;
+}
+/* line 156, sass/app.scss */
+.widget_tweetblender .tb_tweetlist .tb_tweet-info {
+  display: none;
 }
