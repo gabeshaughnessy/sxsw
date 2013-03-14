@@ -130,9 +130,10 @@ article:nth-child(3) .poster {
 #msg_loading {
   background: transparent !important;
   margin: 10px 20px 40px 130px;
+  border: 0;
 }
 
-/* line 141, sass/app.scss */
+/* line 142, sass/app.scss */
 .widget_tweetblender {
   width: 500px;
   height: 228px;
@@ -140,11 +141,11 @@ article:nth-child(3) .poster {
   display: block;
   float: left;
 }
-/* line 147, sass/app.scss */
+/* line 148, sass/app.scss */
 .widget_tweetblender .tb_archivelink {
   display: none;
 }
-/* line 150, sass/app.scss */
+/* line 151, sass/app.scss */
 .widget_tweetblender .tb_tweetlist {
   margin: 10px 30px 40px 130px;
   font-family: 'Futura';
@@ -152,16 +153,16 @@ article:nth-child(3) .poster {
   font-weight: bold;
   border: 0;
 }
-/* line 156, sass/app.scss */
+/* line 157, sass/app.scss */
 .widget_tweetblender .tb_tweetlist div.tb_tweet {
   border: 0;
 }
-/* line 159, sass/app.scss */
+/* line 160, sass/app.scss */
 .widget_tweetblender .tb_tweetlist a {
   color: #f73;
   font-weight: 800;
 }
-/* line 163, sass/app.scss */
+/* line 164, sass/app.scss */
 .widget_tweetblender .tb_tweetlist .tb_tweet-info {
   display: none;
 }
