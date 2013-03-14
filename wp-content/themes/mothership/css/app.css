@@ -169,6 +169,13 @@ article:nth-child(3) .poster {
 
 /* LINEUP LAPTOP */
 /* line 171, sass/app.scss */
+body {
+  line-height: 1.5em;
+  overflow: hidden;
+  height: 200px;
+}
+
+/* line 176, sass/app.scss */
 .lineup {
   list-style: none;
   font-weight: bold;
@@ -183,11 +190,11 @@ article:nth-child(3) .poster {
   background-origin: border-box;
   text-shadow: 0 0 6px #fa3;
 }
-/* line 184, sass/app.scss */
+/* line 189, sass/app.scss */
 .lineup li {
   font-size: 20px;
 }
-/* line 187, sass/app.scss */
+/* line 192, sass/app.scss */
 .lineup li.headline {
   text-transform: uppercase;
   font-size: 24px;
