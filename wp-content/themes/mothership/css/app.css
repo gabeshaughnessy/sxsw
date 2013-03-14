@@ -107,7 +107,7 @@ article:nth-child(1) .poster {
 article:nth-child(2) .poster {
   position: absolute;
   z-index: 2;
-  left: 0px;
+  left: 20px;
   top: 225px;
   width: 150px;
   height: 200px;
@@ -119,7 +119,7 @@ article:nth-child(3) .poster {
   z-index: 1;
   position: absolute;
   left: 94px;
-  top: 60px;
+  top: 80px;
   width: 150px;
   height: 208px;
   background: url(../images/poster3-small.png) no-repeat top;
