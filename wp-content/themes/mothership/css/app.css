@@ -127,6 +127,11 @@ article:nth-child(3) .poster {
 
 /* Word Bubble */
 /* line 137, sass/app.scss */
+#msg_loading {
+  background: #f00 !important;
+}
+
+/* line 140, sass/app.scss */
 .widget_tweetblender {
   width: 500px;
   height: 228px;
@@ -134,7 +139,11 @@ article:nth-child(3) .poster {
   display: block;
   float: left;
 }
-/* line 144, sass/app.scss */
+/* line 146, sass/app.scss */
+.widget_tweetblender .tb_archivelink {
+  display: none;
+}
+/* line 149, sass/app.scss */
 .widget_tweetblender .tb_tweetlist {
   margin: 10px 20px 40px 130px;
   font-family: 'Futura';
@@ -142,15 +151,15 @@ article:nth-child(3) .poster {
   font-weight: bold;
   border: 0;
 }
-/* line 150, sass/app.scss */
+/* line 155, sass/app.scss */
 .widget_tweetblender .tb_tweetlist div.tb_tweet {
   border: 0;
 }
-/* line 153, sass/app.scss */
+/* line 158, sass/app.scss */
 .widget_tweetblender .tb_tweetlist a {
   color: #fff;
 }
-/* line 156, sass/app.scss */
+/* line 161, sass/app.scss */
 .widget_tweetblender .tb_tweetlist .tb_tweet-info {
   display: none;
 }
