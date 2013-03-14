@@ -194,13 +194,17 @@ body {
 .lineup li {
   font-size: 20px;
 }
-/* line 192, sass/app.scss */
+/* line 191, sass/app.scss */
+.lineup li em {
+  font-size: 16px;
+}
+/* line 195, sass/app.scss */
 .lineup li.headline {
   text-transform: uppercase;
   font-size: 24px;
   color: #fa4;
 }
-/* line 197, sass/app.scss */
+/* line 200, sass/app.scss */
 .lineup li.small {
   margin-left: 10px;
   font-size: 18px;
