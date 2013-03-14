@@ -107,10 +107,10 @@ article:nth-child(1) .poster {
 article:nth-child(2) .poster {
   position: absolute;
   z-index: 2;
-  left: 20px;
+  left: 30px;
   top: 225px;
-  width: 150px;
-  height: 200px;
+  width: 135px;
+  height: 180px;
   background: url(../images/poster2-small.png) no-repeat top;
 }
 
@@ -128,10 +128,11 @@ article:nth-child(3) .poster {
 /* Word Bubble */
 /* line 137, sass/app.scss */
 #msg_loading {
-  background: #f00 !important;
+  background: transparent !important;
+  margin: 10px 20px 40px 130px;
 }
 
-/* line 140, sass/app.scss */
+/* line 141, sass/app.scss */
 .widget_tweetblender {
   width: 500px;
   height: 228px;
@@ -139,27 +140,28 @@ article:nth-child(3) .poster {
   display: block;
   float: left;
 }
-/* line 146, sass/app.scss */
+/* line 147, sass/app.scss */
 .widget_tweetblender .tb_archivelink {
   display: none;
 }
-/* line 149, sass/app.scss */
+/* line 150, sass/app.scss */
 .widget_tweetblender .tb_tweetlist {
-  margin: 10px 20px 40px 130px;
+  margin: 10px 30px 40px 130px;
   font-family: 'Futura';
   text-transform: uppercase;
   font-weight: bold;
   border: 0;
 }
-/* line 155, sass/app.scss */
+/* line 156, sass/app.scss */
 .widget_tweetblender .tb_tweetlist div.tb_tweet {
   border: 0;
 }
-/* line 158, sass/app.scss */
+/* line 159, sass/app.scss */
 .widget_tweetblender .tb_tweetlist a {
-  color: #fff;
+  color: #f73;
+  font-weight: 800;
 }
-/* line 161, sass/app.scss */
+/* line 163, sass/app.scss */
 .widget_tweetblender .tb_tweetlist .tb_tweet-info {
   display: none;
 }

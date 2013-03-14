@@ -114,10 +114,10 @@ article:nth-child(2){
 .poster{
 	position: absolute;
 	z-index:2;
-	left: 20px;
+	left: 30px;
 	top: 225px;
-	width: 150px;
-	height: 200px;
+	width: 135px;
+	height: 180px;
 	background: url(../images/poster2-small.png) no-repeat top;
 }
 }
@@ -135,7 +135,8 @@ article:nth-child(3){
 
 /* Word Bubble */
 #msg_loading {
-background: #f00 !important;
+background: transparent !important;
+margin: 10px 20px 40px 130px;
 }
  .widget_tweetblender {
 	 width: 500px;
@@ -147,7 +148,7 @@ background: #f00 !important;
 	display: none;
 	} 
 	 .tb_tweetlist {
-		 margin: 10px 20px 40px 130px;
+		 margin: 10px 30px 40px 130px;
 		 font-family: 'Futura';
 		 text-transform: uppercase;
 		 font-weight: bold;
@@ -156,7 +157,8 @@ background: #f00 !important;
 			 border: 0;
 		 }
 		 a {
-			 color: #fff;
+			color: #f73;
+			font-weight: 800;	
 		 }
 		 .tb_tweet-info {
 			display: none;
