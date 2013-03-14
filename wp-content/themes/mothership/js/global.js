@@ -18,9 +18,9 @@ var posterImage = poster.css('backgroundImage');
 	else if(i==1){
 		poster.css({
 		'backgroundImage': posterImage +','+ 'url(' + instagram.src +')', 
-		'backgroundSize' : 'cover, 112px 112px',
-		'background-position-x' :'left, 9px',
-		'background-position-y' :'top, 45px',
+		'backgroundSize' : 'cover, 100px 100px',
+		'background-position-x' :'left, 8px',
+		'background-position-y' :'top, 40px',
 		});
 	}
 	else if(i=2){
