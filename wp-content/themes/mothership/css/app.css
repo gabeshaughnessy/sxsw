@@ -186,7 +186,7 @@ body {
   width: 300px;
   margin: 0;
   overflow: scroll;
-  padding: 0 15px 25px;
+  padding: 0 15px 25px 8px;
   background-origin: border-box;
   text-shadow: 0 0 6px #fa3;
 }
