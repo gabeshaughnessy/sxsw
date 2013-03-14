@@ -10,25 +10,25 @@ var posterImage = poster.css('backgroundImage');
 	if(i==0){
 		poster.css({
 		'backgroundImage': posterImage +','+ 'url(' + instagram.src +')', 
-		'backgroundSize' : 'cover, 300px 300px',
-		'background-position-x' :'left, 20px',
-		'background-position-y' :'top, 100px',
+		'backgroundSize' : 'cover, 150px 150px',
+		'background-position-x' :'left, 10px',
+		'background-position-y' :'top, 50px',
 		});
 	}
 	else if(i==1){
 		poster.css({
 		'backgroundImage': posterImage +','+ 'url(' + instagram.src +')', 
-		'backgroundSize' : 'cover, 250px 250px',
-		'background-position-x' :'left, 20px',
-		'background-position-y' :'top, 100px',
+		'backgroundSize' : 'cover, 125px 125px',
+		'background-position-x' :'left, 10px',
+		'background-position-y' :'top, 50px',
 		});
 	}
 	else if(i=2){
 		poster.css({
 		'backgroundImage': posterImage +','+ 'url(' + instagram.src +')', 
-		'backgroundSize' : 'cover, 320px 320px',
+		'backgroundSize' : 'cover, 160px 160px',
 		'background-position-x' :'left, 0px',
-		'background-position-y' :'top, 60px',
+		'background-position-y' :'top, 30px',
 		});
 	}
 	instagram.hide();

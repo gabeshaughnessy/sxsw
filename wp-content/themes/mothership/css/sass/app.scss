@@ -103,11 +103,11 @@ article:nth-child(1){
 .poster{
 	position: absolute;
 	z-index:3;
-	left: -5px;
-	top: -15px;
-	width: 350px;
-	height: 507px;
-	background: url(../images/poster1.png) no-repeat top;
+	left: -3px;
+	top: -7px;
+	width: 175px;
+	height: 257px;
+	background: url(../images/poster1-small.png) no-repeat top;
 }
 }
 article:nth-child(2){
@@ -115,21 +115,21 @@ article:nth-child(2){
 	position: absolute;
 	z-index:2;
 	left: 0px;
-	top: 450px;
-	width: 300px;
-	height: 400px;
-	background: url(../images/poster2.png) no-repeat top;
+	top: 225px;
+	width: 150px;
+	height: 200px;
+	background: url(../images/poster2-small.png) no-repeat top;
 }
 }
 article:nth-child(3){
 .poster{
 	z-index:1;
 	position: absolute;
-	left: 225px;
+	left: 94px;
 	top: 0px;
-	width: 300px;
-	height: 413px;
-	background: url(../images/poster3.png) no-repeat top;
+	width: 150px;
+	height: 208px;
+	background: url(../images/poster3-small.png) no-repeat top;
 }
 }
 
