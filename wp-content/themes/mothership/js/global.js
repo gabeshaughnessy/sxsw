@@ -42,6 +42,7 @@ e.preventDefault();
 					}); //end document ready
 
 /* --------- WINDOW LOAD --------- */
-jQuery(window).load(function(){
-//jQuery('.poster').draggable();
+jQuery(window).load(function($){
+
+
 }); //end window load

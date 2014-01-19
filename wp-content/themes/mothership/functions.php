@@ -43,11 +43,16 @@ function ms_enqueue_scripts() {
 		get_template_directory_uri() . '/js/jquery.localscroll-1.2.7-min.js',
 		array('jquery', 'scrollTo')
 	);
+	wp_register_script(
+		'cookie',
+		get_template_directory_uri() . '/js/jquery.cookie.js',
+		array('jquery')
+	);
 	//Global JS
 	wp_register_script(
 		'global_scripts',
 		get_template_directory_uri() . '/js/global.js',
-		array('foundation', 'jquery')
+		array('foundation', 'jquery', 'cookie')
 	
 	);
 	
@@ -70,6 +75,7 @@ function ms_enqueue_scripts() {
 	wp_enqueue_script('jquery-effects-explode');
 	wp_enqueue_script('jquery-effects-drop');
 	wp_enqueue_script('jquery-transform');
+	wp_enqueue_script('cookie');
 	/*wp_enqueue_script(
 		'uniform'
 	);*/
