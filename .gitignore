@@ -1,5 +1,15 @@
+400.shtml
+401.shtml
+403.shtml
+404.shtml
+500.php
+500.shtml
+default.html
+error_log
+favicon.ico
 .htaccess
 readme.html
+layar-videos/
 sxsw.esproj/
 wp-config.php
 wp-content/index.php
@@ -11,6 +21,7 @@ wp-content/plugins/
 wp-content/themes/twentyten
 wp-content/themes/twentyeleven
 wp-content/themes/twentytwelve
+wp-content/themes/twenty*
 wp-content/backup-db/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
